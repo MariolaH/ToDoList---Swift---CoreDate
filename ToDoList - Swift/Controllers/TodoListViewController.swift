@@ -92,7 +92,6 @@ class TodoListViewController: UITableViewController {
             newItem.parentCategory = self.selectedCategory
             self.itemArray.append(newItem)
             //tableView.reloadData() - reloads the rows and the section of the tabeView, taking into account the new data that has been added to the itemArray
-            
             self.savedItems()
         }
         
